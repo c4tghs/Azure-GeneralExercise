@@ -1,0 +1,6 @@
+@AZGE.ProductApi.Api_HostAddress = http://localhost:5197
+
+GET {{AZGE.ProductApi.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
