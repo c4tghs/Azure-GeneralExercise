@@ -45,7 +45,7 @@ if (app.Environment.IsDevelopment())
         var dbContext = scope.ServiceProvider.GetRequiredService<StockDbContext>();
         dbContext.Database.EnsureCreated();
         dbContext.Database.Migrate();
-        dbContext.Database.ExecuteSqlRaw($"SET IDENTITY_INSERT StockApi.{nameof(Product)} ON");
+        dbContext.Database.ExecuteSqlRaw($"SET IDENTITY_INSERT StockApi.$StockProduct ON");
     }
 }
 
