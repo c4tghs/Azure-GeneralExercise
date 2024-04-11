@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AZGE.ProductApi.Persistence.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20240411102709_InitialProductDomainSetup")]
-    partial class InitialProductDomainSetup
+    [Migration("20240411140007_second")]
+    partial class second
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

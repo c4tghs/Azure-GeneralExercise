@@ -5,7 +5,7 @@
 namespace AZGE.ProductApi.Persistence.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialProductDomainSetup : Migration
+    public partial class second : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
